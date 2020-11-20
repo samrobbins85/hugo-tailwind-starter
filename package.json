@@ -1,0 +1,30 @@
+{
+  "name": "hugo-tailwind-starter",
+  "version": "0.0.1",
+  "description": "A starter for making a hugo website with Tailwind CSS",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "NODE_ENV=production hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samrobbins85/tech-to-use.git"
+  },
+  "author": "Sam Robbins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samrobbins85/tech-to-use/issues"
+  },
+  "homepage": "https://github.com/samrobbins85/tech-to-use#readme",
+  "devDependencies": {
+    "postcss-cli": "^8.3.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-go-template": "0.0.10"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.8",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
